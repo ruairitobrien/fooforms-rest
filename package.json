@@ -1,0 +1,36 @@
+{
+    "name": "fooforms-rest",
+    "version": "0.0.1",
+    "description": "rest helpermodule for fooforms",
+    "keywords": [
+        "fooforms",
+        "nodejs",
+        "rest"
+    ],
+    "author": {
+        "name": "FooForms",
+        "email": "info@fooforms.com",
+        "url": "http://www.fooforms.com/"
+    },
+    "homepage": "http://www.fooforms.com/",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com/ruairitobrien/fooforms-rest.git"
+    },
+    "engines": {
+        "node": "0.10.x",
+        "npm": ">= 1.0.0"
+    },
+    "dependencies": {
+        "fooforms-logging": "ruairitobrien/fooforms-logging"
+    },
+    "devDependencies": {
+        "grunt": "*",
+        "mocha": "*",
+        "mockgoose": "*",
+        "should": "*"
+    },
+    "bundleDependencies": [],
+    "private": true,
+    "subdomain": "fooforms"
+}
