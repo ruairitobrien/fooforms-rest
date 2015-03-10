@@ -1,7 +1,7 @@
 {
     "name": "fooforms-rest",
-    "version": "0.0.1",
-    "description": "rest helpermodule for fooforms",
+  "version": "0.0.2",
+  "description": "REST helper module for fooforms",
     "keywords": [
         "fooforms",
         "nodejs",
@@ -18,8 +18,8 @@
         "url": "git@github.com/ruairitobrien/fooforms-rest.git"
     },
     "engines": {
-        "node": "0.10.x",
-        "npm": ">= 1.0.0"
+      "node": "0.12.x",
+      "npm": ">= 2.5.0"
     },
     "dependencies": {
         "fooforms-logging": "ruairitobrien/fooforms-logging"
